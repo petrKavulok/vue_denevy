@@ -27,13 +27,6 @@
       "person": "Taybah",
       "due": "2022-01",
       "status": "ongoing"
-    },
-    {
-      "title": "Fun stuff",
-      "person": "ME",
-      "due": "2021-11",
-      "status": "ongoing",
-      "id": 4
     }
   ]
 }
