@@ -1,3 +1,18 @@
 {
-    "headline": "VDECHNI SVÉ TECHNOLOGII ŽIVOT"
+    "headline": "VDECHNI SVÉ TECHNOLOGII ŽIVOT",
+    "Home": "Úvod",
+    "Contact": "Kontakt",
+    "project_title": "Projekt",
+    "teamlead": "Vedoucí projektu",
+    "due": "Deadline",
+    "status": "Stav",
+    "Projects":  "Projekty",
+    "Cancel": "Zrušit",
+    "Save": "Uložit",
+    "taskRules_title": "Bez názvu to nepůjde",
+    "general_rules": "Na něco důležitého jsme zapoměli >:(",
+    "saveMessage_success": "Skvělé!, nový projekt byl uložen do databáze.",
+    "saveMessage_fail": "Prosím postupujte podle pravidel."
+
+
 }

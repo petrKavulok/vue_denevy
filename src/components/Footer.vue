@@ -4,7 +4,7 @@
       justify="center" no-gutters class="gray lighten-2 text-center  text-uppercase grey--text"
     >
       <v-btn
-        v-for="link in links" :key="link" color="grey" text 
+        v-for="link in links" :key="link.name" color="grey" text 
         router :to="link.route"
         class=" caption"
       >

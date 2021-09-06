@@ -25,7 +25,7 @@
                     </v-list-item-action>
                     <v-list-item-content>
                         <v-list-item-title class="white--text">
-                            {{ link.text }}
+                            {{ $t(link.text) }}
                         </v-list-item-title>
                     </v-list-item-content>
                 </v-list-item>
@@ -41,7 +41,7 @@ export default {
     return {
         drawer: false,
         links: [
-            { icon: 'mdi-home-circle', text: 'Home', route:'/'},
+            { icon: 'mdi-home-circle', text: "Home", route:'/'},
             { icon: 'mdi-file-multiple', text: 'Projects', route:'/projects'},
             { icon: 'mdi-account-group', text: 'Contact', route:'/contact'},
         ],

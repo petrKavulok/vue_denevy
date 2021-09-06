@@ -1,3 +1,16 @@
 {
-    "headline": "MAKE YOUR TECHNOLOGY ALIVE"
+    "headline": "MAKE YOUR TECHNOLOGY ALIVE",
+    "Home": "Home",
+    "Contact": "Contact",
+    "project_title": "Project Title",
+    "teamlead": "Teamlead",
+    "due": "Due by",
+    "status": "Status",
+    "Projects":  "Projects",
+    "Cancel": "Cancel",
+    "Save": "Save",
+    "taskRules_title": "No title, no fun",
+    "general_rules": "You forgot something important >:(",
+    "saveMessage_success": "Congrats! New project has been added to the project page",
+    "saveMessage_fail": "Please follow the rules"
 }

@@ -1,6 +1,6 @@
 <template>
   <div class="project">
-    <h1 class="subheading grey--text mt-3">Home</h1>
+    <h1 class="subheading grey--text mt-3">{{$t('Home')}}</h1>
     <v-container class="my-5">
       
         <v-card flat  class="pa-5" align="center">
@@ -22,13 +22,13 @@
 
                       <v-spacer></v-spacer>
 
-                      <v-btn text color="primary" @click="menu = false">Cancel</v-btn>
+                      <v-btn text color="primary" @click="menu = false">{{ $t('Cancel')}}</v-btn>
                       <v-btn text color="primary" @click="$refs.menu.save(date)">OK</v-btn>
                       
                     </v-date-picker>
                   </v-menu>
 
-                  <v-btn text class="success mx-0 mt-3" @click="submit">Save</v-btn>
+                  <v-btn text class="success mx-0 mt-3" @click="submit">{{ $t('Save') }}</v-btn>
               </v-form>
             <p class="mt-5" >{{ message ? message : '' }} </p>
         </v-card>
